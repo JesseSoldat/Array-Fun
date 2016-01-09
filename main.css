@@ -1,0 +1,13 @@
+.mybtns {
+  padding: 10px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+
+}
+.blue {
+  background-color: #82FFD0;
+}
+.lightblue {
+  background-color: lightblue;
+}
