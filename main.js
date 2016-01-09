@@ -19,7 +19,7 @@ alpha.innerHTML = btns;
 // document.write(btns);
 
 //QUIZ
-var test, test_status, question, choice, choices, chA, chB, chC;
+var test, test_status, question, choice, choices, chA, chB, chC, chD;
 var pos = 0;
 var correct = 0;
 var questions = [
@@ -34,6 +34,13 @@ function getElem(elem) {
 function renderQuestion() {
   test = getElem('test');
   testStatus = getElem('testStatus').innerHTML = 'Question '+(pos+1)+' of '+questions.length;
+  question = questions[pos][0];
+  chA = questions[pos][1];
+  chB = questions[pos][2];
+  chC = questions[pos][3];
+  chD = questions[pos][4];
+  test.innerHTML = '<h3>'+question+'</h3>';
+
 }
 renderQuestion();
 
