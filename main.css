@@ -16,3 +16,13 @@
   border: #000 1px solid;
   padding: 10px 40px 40px 10px;
 }
+input[type="radio"] {
+  margin: 0 10px 10px 0;
+
+}
+.submitBtn {
+  margin: 5px 0 0 0;
+  padding: 7px 7px;
+  font-size: .9em;
+  border-radius: 3px;
+}
